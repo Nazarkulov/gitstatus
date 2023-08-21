@@ -1,0 +1,52 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 86%;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 96%;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .blocks-1 {
+        justify-content: space-evenly;
+    }
+    #helps {
+        max-width: 59.3pc;
+    }
+    .help {
+        gap: 2pc;
+        justify-content: space-evenly;
+    }
+    .block-1-1 {
+        background: #f4f0f0;
+    }
+}
